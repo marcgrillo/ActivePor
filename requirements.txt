@@ -1,0 +1,8 @@
+numpy>=1.26
+scipy>=1.11
+cvxpy>=1.5        # with its SCS solver: the FTRL-BT estimate
+numba>=0.60       # hit-and-run sampler of the Dvf baseline
+matplotlib>=3.8
+pandas>=2.0       # table of the Laplace check
+openpyxl>=3.1     # only to build the real-world dataset from its spreadsheet
+pytest>=7         # only for the tests

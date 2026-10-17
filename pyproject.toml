@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activepor"
+version = "1.0.0"
+description = "Active learning for Probabilistic Ordinal Regression in multiple criteria ranking"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "cvxpy>=1.5", "numba>=0.60", "matplotlib>=3.8", "pandas>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["activepor*"]
